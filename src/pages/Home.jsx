@@ -5,6 +5,7 @@ import HilightedText from '../components/core/Home/HilightedText';
 import Button from '../components/core/Home/YellowButton';
 import BannerVideo from '../assets/Images/banner.mp4'
 import CodeBlocks from '../components/core/Home/CodeBlocks';
+import Timeline from '../components/core/Home/Timeline';
 
 
 function Home() {
@@ -111,6 +112,28 @@ function Home() {
     </div>
 
     {/* section 2 */}
+
+            <div className='bg-white h-[200px] '>
+              <div className='bg-image h-[100%]'>
+               <div className='flex justify-center items-center gap-4 pt-14'>
+               <div>
+                <Button active={true} linkto={"/signup"}>
+                Explore Full Catalog
+                <FaArrowRight/>
+                </Button>
+                </div>
+                <div>
+                <Button active={false} linkto={"/signup"}>
+                    Learn More
+                </Button>
+                </div>
+               </div>
+              </div>
+              <div className='w-11/12 flex justify-center items-center'>
+                <Timeline/>
+              </div>
+            </div>
+
     {/* section 3 */}
     {/* Footer */}
 
