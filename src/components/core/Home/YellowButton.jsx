@@ -7,17 +7,11 @@ function Button({children , active , linkto}) {
     <Link to={linkto}>
       <div className={`px-4 py-2  rounded-md flex  items-center gap-2
        shadow-richblack-300 shadow-sm transition-all duration-200 hover:scale-95
-       ${active ? "bg-yellow-50 text-richblue-800 font-bold hover:bg-yellow-100" :
+       ${active ? "bg-green-200 text-richblue-800 font-bold hover:bg-yellow-100" :
        " bg-richblack-600 text-white font-semibold hover:bg-richblack-700" }`}>
         {children}
       </div>
     </Link>
-
-    // <div className='px-4 py-2 bg-yellow-50 text-richblue-800 font-bold
-    //      rounded-md hover:bg-yellow-100 shadow-richblack-300 shadow-sm transition-all duration-200'
-    //       >
-    //             {text}
-    //     </div>
   )
 }
 

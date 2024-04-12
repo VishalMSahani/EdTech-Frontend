@@ -6,6 +6,7 @@ import Button from '../components/core/Home/YellowButton';
 import BannerVideo from '../assets/Images/banner.mp4'
 import CodeBlocks from '../components/core/Home/CodeBlocks';
 import Timeline from '../components/core/Home/Timeline';
+import ExploreNavigation from '../components/core/Home/ExploreNavigation';
 
 
 function Home() {
@@ -108,8 +109,12 @@ function Home() {
           />
         </div>
     
+    <div>
+      <ExploreNavigation/>
+    </div>
 
     </div>
+
 
     {/* section 2 */}
 
