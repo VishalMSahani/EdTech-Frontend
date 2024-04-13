@@ -35,7 +35,7 @@ function ExploreNavigation() {
         {
             TabsName.map((item, index) =>{
                 return(
-                    <div className={`px-4 items-center cursor-pointer
+                    <div key={index} className={`px-4 items-center cursor-pointer
                      ${currentTag === item ? "bg-green-500 rounded-2xl border border-green-400 py-1 px-6 " : null}`}
                      onClick={()=> setCurrentTab(item)}
                      >
